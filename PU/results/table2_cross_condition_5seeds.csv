@@ -1,0 +1,5 @@
+Scenario,Type,Backbone,Concat (%),Cross-Attn (%),+TF-DPF,Gain vs. Concat,Gain vs. Cross-Attn
+0.7 -> 0.1 Nm,Cross-Torque,ResNet1D,59.00±5.80%,63.98±4.65%,79.01±7.88%,+20.01% (0.0014)**,+15.03% (0.0359)*
+0.7 -> 0.1 Nm,Cross-Torque,PatchTST,67.49±3.63%,67.88±2.48%,67.20±7.67%,-0.30% (0.9606),-0.68% (0.8878)
+1000 -> 400 N,Cross-Radial-Load,ResNet1D,57.70±2.08%,62.80±5.94%,64.79±7.70%,+7.09% (0.0751),+1.99% (0.7674)
+1000 -> 400 N,Cross-Radial-Load,PatchTST,57.06±3.91%,56.90±3.90%,59.56±10.24%,+2.50% (0.7154),+2.66% (0.7208)

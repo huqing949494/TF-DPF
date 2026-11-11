@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch and Testing Caches
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Raw Third-Party Benchmark Datasets
+PU/PU_dataset/
+SEU/SEU-datasets-master/
+
+# Preprocessed Data Tensor Caches
+PU/cache/
+SEU/cache/
+
+# Pre-trained Model Checkpoints (Hosted on GitHub Releases)
+PU/checkpoints/
+SEU/checkpoints/
+release_assets/
+*.zip
+*.tar.gz
+
+# IDE and Editor configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp

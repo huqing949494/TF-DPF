@@ -1,0 +1,20 @@
+# Core Scientific & Data Processing Dependencies
+numpy>=1.22.0
+scipy>=1.8.0
+scikit-learn>=1.0.0
+matplotlib>=3.5.0
+
+# Deep Learning Framework
+# NOTE: PyTorch installation depends on your GPU/CUDA setup.
+# Please install the matching PyTorch version for your environment prior to or alongside requirements:
+#
+# CUDA 12.1 (Recommended for RTX 30/40 series):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#
+# CUDA 11.8:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+#
+# CPU-only:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#
+torch>=2.0.0
