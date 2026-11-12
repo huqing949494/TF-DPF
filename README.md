@@ -1,7 +1,7 @@
-# TF-DPF: Plug-and-Play Time-Frequency Dual-Path Fusion for Electro-Mechanical Fault Diagnosis
+# A Model-Agnostic Time–Frequency Decoupling Framework for Robust Electro-Mechanical Fault Diagnosis Under Severe Noise
 
 This repository contains the official open-source PyTorch implementation and all pre-trained model weights for the paper:  
-**"Plug-and-Play Time-Frequency Dual-Path Fusion for Electro-Mechanical Fault Diagnosis"** (*IEEE Access*).
+**"A Model-Agnostic Time–Frequency Decoupling Framework for Robust Electro-Mechanical Fault Diagnosis Under Severe Noise"** .
 
 ---
 
@@ -134,14 +134,3 @@ python run_experiments.py
 
 ---
 
-## 5. Citation
-
-If you find this code or our TF-DPF framework useful in your research, please cite our paper:
-
-```bibtex
-@article{tfdpf2026,
-  title={Plug-and-Play Time-Frequency Dual-Path Fusion for Electro-Mechanical Fault Diagnosis},
-  journal={IEEE Access},
-  year={2026}
-}
-```
