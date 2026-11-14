@@ -79,7 +79,8 @@ All experimental tables reported in Section V of the paper can be reproduced fro
 
 ### Step 1: Download Model Checkpoints
 Download the pre-trained checkpoint archives from [TF-DPF Releases (v1.0.0)](https://github.com/huqing949494/TF-DPF/releases/tag/v1.0.0):
-- **`pu_checkpoints.zip`** (~1.5 GB): All 740 pre-trained checkpoints for Paderborn University bearing benchmark across 5 seeds.
+- **`pu_checkpoints_part1.zip`** (~780 MB): PU benchmark models for Table 1 (8 SOTA Backbones), Table 2 (Cross-Condition Transfer), and Table 4 (Ablation Study).
+- **`pu_checkpoints_part2.zip`** (~788 MB): PU benchmark models for Table 3 (SNR Noise Sweep) and Table 5 (Sensitivity Analysis).
 - **`seu_checkpoints_part1.zip`** (~0.9 GB): SEU benchmark models for Table 1 (8 SOTA Backbones) and Table 2 (Subsystems & Regimes).
 - **`seu_checkpoints_part2.zip`** (~1.5 GB): SEU benchmark models for Table 3 (SNR Sweep), Table 4 (Ablation), and Table 5 (Sensitivity).
 
